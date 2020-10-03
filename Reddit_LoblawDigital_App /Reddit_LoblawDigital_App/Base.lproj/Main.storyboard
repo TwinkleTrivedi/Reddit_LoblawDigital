@@ -43,6 +43,7 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="148" id="LvV-0V-L7B"/>
                                                                 <constraint firstAttribute="height" constant="133" id="moz-iv-Yd3"/>
+                                                                <constraint firstAttribute="width" secondItem="rCh-qU-D9H" secondAttribute="height" multiplier="148:133" id="wx3-cc-orI"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fW7-zP-Xd5">
