@@ -78,9 +78,9 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
                     
                 }
             }
-            let aspectRatioConstraint = NSLayoutConstraint(item:  cell.thumbnailImg,attribute: .height,relatedBy: .equal,toItem:  cell.thumbnailImg,attribute: .width,multiplier: (CGFloat(self.robject[indexPath.row].thumbnail_width/self.robject[indexPath.row].thumbnail_height)),constant: 0)
+            //let aspectRatioConstraint = NSLayoutConstraint(item:  cell.thumbnailImg,attribute: .height,relatedBy: .equal,toItem:  cell.thumbnailImg,attribute: .width,multiplier: (CGFloat(self.robject[indexPath.row].thumbnail_width/self.robject[indexPath.row].thumbnail_height)),constant: 0)
             
-            cell.thumbnailImg.addConstraint(aspectRatioConstraint)
+           // cell.thumbnailImg.addConstraint(aspectRatioConstraint)
     }
         
         return cell
